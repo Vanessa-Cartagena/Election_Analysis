@@ -18,7 +18,7 @@ candidate_options = []
 candidate_votes = {}
 
 # 1: Create a county list and county votes dictionary.
-county_list = []
+county_names = []
 county_votes = {}
 
 
@@ -65,10 +65,10 @@ with open(file_to_load) as election_data:
 
         # 4a: Write an if statement that checks that the
         # county does not match any existing county in the county list.
-        if county_name not in county_list:
+        if county_name not in county_names:
 
             # 4b: Add the existing county to the list of counties.
-            county_list.append(county_name)
+            county_names.append(county_name)
 
             # 4c: Begin tracking the county's vote count.
             county_votes[county_name] = 0 
@@ -94,24 +94,24 @@ with open(file_to_save, "w") as txt_file:
     # 6a: Write a for loop to get the county from the county dictionary.
     for county in county_votes:
         # 6b: Retrieve the county vote count.
-        county_votes = county_votes[county]
+        county_vote = county_votes[county]
         # 6c: Calculate the percentage of votes for the county.
-        county_percent = float(county_votes) / float(total_votes) * 100
+        county_percent = float(county_vote) / float(total_votes) * 100
          # 6d: Print the county results to the terminal.
         county_results = (
-            f"{county}: {county_percent:.1f}% ({county_votes:,})\n")
+            f"{county}: {county_percent:.1f}% ({county_vote:,})\n")
         print(county_results, end="")
          # 6e: Save the county votes to a text file.
         txt_file.write(county_results)
          # 6f: Write an if statement to determine the winning county and get its vote count.
-        if (county_votes > highest_county_count):
-            highest_county_vote = county_votes
-            highest_county_turnout = county 
+        if (county_vote > highest_county_count):
+            highest_county_vote = county_vote
+            highest_county_vote = county 
 
     # 7: Print the county with the largest turnout to the terminal.
     winning_county_summary = (
         f"-------------------------\n"
-        f"Largest County Turnout: {highest_county_turnout}\n"
+        f"Largest County Turnout: {highest_county_vote}\n"
         f"-------------------------\n"
     )
     print(winning_county_summary)
