@@ -14,6 +14,8 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 - Software: Python 3.10.5, Visual Studio Code, 1.68.1
 
 ## Election-Audit Results
+[election_analysis.txt](https://github.com/Vanessa-Cartagena/Election_Analysis/files/8962682/election_analysis.txt)
+
 The analysis of the elction show that:
 - There were 369,711 votes cast in the election.
 - The counties that voted were:
@@ -21,9 +23,9 @@ The analysis of the elction show that:
     - Denver
     - Jefferson
 - The county results were:
-    - Arapahoe submitted 6.7% of the vote and 306,055 number of votes. 
+    - Arapahoe submitted 6.7% of the vote and 24,801 number of votes. 
     - Denver submitted 82.8% of the vote and 306,055 number of votes. 
-    - Jefferson submitted 82.8% of the vote and 306,055 number of votes. 
+    - Jefferson submitted 10.5% of the vote and 38,855 number of votes. 
 - The county with the largest turnout was: 
     - Denver who submitted 82.8% of the vote and 306,055 number of votes. 
 - The candidates were:
