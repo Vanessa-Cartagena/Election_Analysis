@@ -40,4 +40,4 @@ The analysis of the election show that:
     - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes. 
 
 ## Election-Audit Summary
-
+This code can be applied to any election because it displays the results clearly and allows for customization. In this case, you can update it to show the least-voted-for candidate or the county with the lowest turnout. The code can be changed to suit the kind of election you want to conduct. 
