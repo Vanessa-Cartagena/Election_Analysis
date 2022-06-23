@@ -14,9 +14,9 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 - Software: Python 3.10.5, Visual Studio Code, 1.68.1
 
 ## Election-Audit Results
-[election_analysis.txt](https://github.com/Vanessa-Cartagena/Election_Analysis/files/8962682/election_analysis.txt)
+<img width="666" alt="Screen Shot 2022-06-22 at 8 48 12 PM" src="https://user-images.githubusercontent.com/105958160/175184228-9bd0e765-9f6f-4caa-bd1d-5bc191027969.png">
 
-The analysis of the elction show that:
+The analysis of the election show that:
 - There were 369,711 votes cast in the election.
 - The counties that voted were:
     - Arapahoe 
